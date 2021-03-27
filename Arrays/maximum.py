@@ -1,7 +1,5 @@
 #!/bin/python
 
-# Given two integers representing the rows and columns (m×n), and subsequent m rows of n elements, find the index position of the maximum element and print two numbers representing the index (i×j) or the row number and the column number. If there exist multiple such elements in different rows, print the one with smaller row number. If there multiple such elements occur on the same row, output the smallest column number.
-
 def maximum(A):
     m,n = len(A),len(A[0])
     max = [0,0]

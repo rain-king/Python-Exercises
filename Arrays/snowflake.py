@@ -14,7 +14,6 @@ n = int(input())
 if not n%2:
     n += 1
 A = [[0]*n for i in range(n)]
-print(A)
 A = snowflake(A)
 for i in range(n):
     print(*A[i])

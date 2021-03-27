@@ -1,7 +1,5 @@
 #!/bin/python
 
-# Given two numbers n and m. Create a two-dimensional array of size (n×m) and populate it with the characters "." and "*" in a checkerboard pattern. The top left corner should have the character "." . 
-
 def chessboard(m,n):
     A = [[] for i in range(m)]
     for i in range(m):
