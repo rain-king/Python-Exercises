@@ -6,4 +6,4 @@ def reverse():
         reverse()
     print(x)
 
-reverse()
+if __name__ == __main__: reverse()

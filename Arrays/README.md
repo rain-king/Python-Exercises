@@ -25,8 +25,8 @@ row, output the smallest column number.
 Given three positive integers `m`, `n` and `r`, `m` lines of `n` elements,
 giving an `m` by `n` matrix `A`, and `n` lines of r elements, giving an `n` by
 `r` matrix `B`, form the product matrix `AB`, which is the `m` by `r` matrix
-whose `(i, k)` entry is the sum <br/>
-`A[i][1]∗B[1][k] + ... + A[i][n]∗B[n][k]` <br/>
+whose `(i, k)` entry is the sum <br>
+`A[i][1]∗B[1][k] + ... + A[i][n]∗B[n][k]` <br>
 and print the result.
 
 ## Multiply a matrix by a scalar
